@@ -1,11 +1,10 @@
 # ChangeProjectPackage
 This is tool for change java project package.
+This tool just for education use.
 
     Tool's core is use java.io API.
     Tool's UI is use JavaFX2(Java8).
     Tool use log4j to save log file.
-
-Please 
 
 ##UI setting as below:
 
