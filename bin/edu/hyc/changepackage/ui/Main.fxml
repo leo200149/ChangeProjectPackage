@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="451.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.hyc.changepackage.ui.MainApplication">
+   <children>
+      <Button fx:id="btnPath" layoutX="356.0" layoutY="41.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="99.0" text="Project" />
+      <Label fx:id="labPath" layoutX="17.0" layoutY="41.0" prefHeight="28.0" prefWidth="331.0" style="-fx-background-color: #ddd;" />
+      <TextField fx:id="txtOldPackage" disable="true" layoutX="101.0" layoutY="155.0" prefHeight="26.0" prefWidth="356.0" />
+      <Label layoutX="13.0" layoutY="160.0" text="Old Package" />
+      <Label layoutX="10.0" layoutY="193.0" text="New Package" />
+      <TextField fx:id="txtNewPackage" disable="true" layoutX="101.0" layoutY="188.0" prefHeight="26.0" prefWidth="356.0" />
+      <TextArea fx:id="txtAreaMonitor" editable="false" layoutX="10.0" layoutY="228.0" prefHeight="216.0" prefWidth="447.0" />
+      <Button fx:id="btnStart" disable="true" layoutX="356.0" layoutY="122.0" mnemonicParsing="false" text="Start Replace" />
+      <MenuBar prefHeight="29.0" prefWidth="467.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="About">
+            <items>
+              <MenuItem fx:id="menuAbout" mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="9.0" layoutY="106.0" text="Source Folder" />
+      <ListView fx:id="lvSrcFolder" layoutX="101.0" layoutY="79.0" prefHeight="70.0" prefWidth="254.0" />
+      <Button fx:id="btnAddSrcFolder" disable="true" layoutX="356.0" layoutY="79.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="99.0" text="Add" />
+   </children>
+ </AnchorPane>
